@@ -1,4 +1,4 @@
-hipda搞机小分队自用云轩h170 opencore引导文件，感谢微信群：@beyond291，@酱油喵，@数不清，本EFI来自 @beyond291，稍作修改。
+hipda搞机小分队自用云轩h170 opencore引导文件，特别鸣谢微信群：@beyond291，@酱油喵，@数不清，本EFI来自 @beyond291，稍作修改。
 
 任何人都可以免费使用、修改或者分发该repo内容，hipda搞机小分队对于使用该repo的任何后果均不负任何责任，<mark>use at your own risk！！！</mark>
 
