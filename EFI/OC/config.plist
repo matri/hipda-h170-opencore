@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Olarila DSDT</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>DSDT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>CPU plugin</string>
 				<key>Enabled</key>
 				<true/>
@@ -29,14 +21,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-OLARILA.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>usbx and ec</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
