@@ -21,7 +21,7 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
-			</dict>			
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>EC Fix</string>
@@ -29,6 +29,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-OLARILA.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>usbx and ec</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -144,7 +152,7 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
+			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
@@ -152,7 +160,7 @@
 			<true/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
+			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
@@ -398,7 +406,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
@@ -465,6 +473,22 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
+				<key>Comment</key>
+				<string>usb injection</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -652,7 +676,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>HideSelf</key>
