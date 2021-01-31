@@ -2,6 +2,9 @@ hipda搞机小分队自用云轩h170 opencore引导文件，特别鸣谢微信�
 
 任何人都可以免费使用、修改或者分发该repo内容，hipda搞机小分队对于使用该repo的任何后果均不负任何责任，<mark>use at your own risk！！！</mark>
 
+2021.01.31
+更新：新建0.6.5分支，更新OC到0.6.5正式版，支持macOS 11 big sur.
+
 2020.5.18
 更新：新建0.5.8分支，更新oc到0.5.8正式版，精简了驱动并配合官方coffee lake cpu检测完善了配置。默认config.plist移除了对dw1820a网卡的支持，推荐使用白苹果拆机卡。
 额外保留了包含dw1820a支持的配置文件config.dw1820a.txt 需要使用的请自行改名。
